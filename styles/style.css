@@ -1,6 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 /*Estilos Cabeçalho*/
 .cabecalho img{
     width: 153px;
     height: 45px;
     margin-left:40px;
 }
+
+.links-cabecalho a{
+    padding:13px;
+    text-decoration: none;
+    color:black
+}
+
+#home{
+    color:red;
+    font-weight: bold;
+}
+/* .fundo{
+    background-color:black;
+    z-index: 12;
+} */
+.banner{
+    background-image: url("../imagens/banner.jpg");
+   
+    background-size: cover;
+    height: 610px;
+    width:100%;  
+    
+}
+.fundo{
+    background-color: black;
+    height: 610px;
+    width:100%;
+    opacity: 0.8;
+}
+.banner h1{
+    color:red;
+}
+.banner h2{
+    color:white;
+    font-size:small;   
+}
+.banner button{
+    width:300px;
+    color:white;
+}
+
+
+
+
+.banner-detalhe-filme img{
+    
+    background-size:cover;
+    height: 350px;
+    width:100%;  
+    
+}
+
+.stars{
+    margin-bottom:20px;
+}
+
+.stars .bi{
+    color:#dbd814;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+
+.corpo-detalhe{
+    padding:70px;
+}
+.corpo-detalhe h1{
+   font-size:70px;
+   font-weight: bold;
+}
+
+.criacao-idem h1,h2{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.criacao-nome p{
+    color:#1aa3ff;
+    font-size:17px;
+}
+
+
