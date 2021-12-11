@@ -87,3 +87,18 @@
 }
 
 
+/*Estilo rodapé */
+.rodape {
+    height: 20%;
+    color: white;
+}
+.col {
+    text-align: center;
+}
+.link-rodape {
+    padding: 5px;
+}
+.linkedin {
+    width: 5px;
+    height: 5px;
+}
