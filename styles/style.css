@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
 /*Estilos Cabeçalho*/
 .cabecalho img{
     width: 153px;
@@ -49,7 +50,7 @@
 
 
 
-
+/*Estilo Filmes */
 .banner-detalhe-filme img{
     
     background-size:cover;
@@ -86,6 +87,14 @@
     color:#1aa3ff;
     font-size:17px;
 }
+
+.trailer-filme iframe{
+    width: 100%;
+    height: 600px;
+    border-radius:20px;
+    margin-top:30px;
+}
+
 /* Estilo Corpo */
 .corpo-index{
     margin-bottom:30px;
@@ -94,6 +103,9 @@
 .cards-filmes{
     margin-bottom:30px;
 }
+
+
+
 
 /*Estilo rodapé */
 .rodape {
