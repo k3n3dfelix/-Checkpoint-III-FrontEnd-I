@@ -20,6 +20,7 @@
     background-color:black;
     z-index: 12;
 } */
+
 .banner{
     background-image: url("../imagens/banner.jpg");
    
@@ -85,7 +86,14 @@
     color:#1aa3ff;
     font-size:17px;
 }
+/* Estilo Corpo */
+.corpo-index{
+    margin-bottom:30px;
+}
 
+.cards-filmes{
+    margin-bottom:30px;
+}
 
 /*Estilo rodapé */
 .rodape {
