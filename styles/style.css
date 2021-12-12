@@ -50,7 +50,7 @@
 
 
 
-/*Estilo Filmes */
+/*Estilo Detalhe Filmes */
 .banner-detalhe-filme img{
     
     background-size:cover;
@@ -95,13 +95,16 @@
     margin-top:30px;
 }
 
-/* Estilo Corpo */
+/* Estilo Corpo Index Principal */
 .corpo-index{
     margin-bottom:30px;
 }
 
 .cards-filmes{
     margin-bottom:30px;
+}
+.card-body p {
+margin-bottom:100px;
 }
 
 
