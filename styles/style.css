@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
 /*Estilos Cabeçalho*/
 .cabecalho img{
     width: 153px;
@@ -20,6 +21,7 @@
     background-color:black;
     z-index: 12;
 } */
+
 .banner{
     background-image: url("../imagens/banner.jpg");
    
@@ -48,7 +50,7 @@
 
 
 
-
+/*Estilo Detalhe Filmes */
 .banner-detalhe-filme img{
     
     background-size:cover;
@@ -85,6 +87,27 @@
     color:#1aa3ff;
     font-size:17px;
 }
+
+.trailer-filme iframe{
+    width: 100%;
+    height: 600px;
+    border-radius:20px;
+    margin-top:30px;
+}
+
+/* Estilo Corpo Index Principal */
+.corpo-index{
+    margin-bottom:30px;
+}
+
+.cards-filmes{
+    margin-bottom:30px;
+}
+.card-body p {
+margin-bottom:100px;
+}
+
+
 
 
 /*Estilo rodapé */
