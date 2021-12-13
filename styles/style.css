@@ -31,6 +31,9 @@
 }
 .fundo{
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 610px;
     width:100%;
     
