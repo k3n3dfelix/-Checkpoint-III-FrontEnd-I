@@ -17,14 +17,17 @@
 .banner{
     background-image: url("../imagens/banner.jpg"); 
     background-size: cover;
-    height: 610px;
-    width:100%;  
+    width: 100vw;
+    height: 100vh;  
 }
 .fundo{
     background-color: black;
-    height: 610px;
-    width:100%;
+    width: 100vw;
+    height: 100vh;  
     opacity: 0.8;
+}
+body {
+    overflow: hidden;
 }
 .banner h1{
     color:red;
@@ -45,16 +48,6 @@
     border-radius: 12px;
     transition: 0.4s;
     font-weight: bold;
-}
-
-.banner-detalhe-filme img{
-    background-size:cover;
-    height: 350px;
-    width:100%;  
-    
-}
-.corpo-detalhe{
-    padding:70px;
 }
 form {
     margin-top: 100px;
