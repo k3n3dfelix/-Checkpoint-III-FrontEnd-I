@@ -17,25 +17,23 @@
     color:red;
     font-weight: bold;
 }
-/* .fundo{
-    background-color:black;
-    z-index: 12;
-} */
+.cabecalho{
+   margin-top:20px;
+} 
 
 .banner{
     background-image: url("../imagens/banner.jpg");
     background-size: cover;
     height: 610px;
-    width:100%;  
+    width:100%; 
+    margin-top:61px; 
+    
 }
 .fundo{
-    background-color: black;
+    
     height: 610px;
     width:100%;
-    opacity: 0.8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
 }
 .banner h1{
     color:red;
@@ -126,3 +124,12 @@ margin-bottom:15px;
     font-size: 20px;
 }
 
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}

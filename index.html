@@ -11,7 +11,7 @@
     <title>DH Flix</title>
   </head>
   <body>      
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-light bg-light">
         <div class="container-fluid">
            
                 <div class="col-12 col-md-1">
@@ -21,14 +21,14 @@
                 </div> 
 
                 <div class="col-12 col-md-3 offset-md-5 links-cabecalho">
-                    <a id="home"href="#">Home</a>
-                    <a href="#">Itens</a>
-                    <a href="#">Sobre Nós </a>
-                    <a href="login.html">Login</a>
+                    <a id="index.html" href="#banner">Home</a>
+                    <a href="#banner">Itens</a>
+                    <a href="#rodape">Sobre Nós </a>
+                    <a href="./login.html">Login</a>
                 </div>
         </div>
       </nav>
-      <div class="banner ">
+      <div class="banner  d-flex flex-column" id="banner">
          <div class="fundo">
             <h1 class="d-flex justify-content-center">DH FLIX</h1>
             <h2 class="d-flex justify-content-center">Confira a maior coletânea de filmes que a Digital House tem a te oferecer</h2>
@@ -43,7 +43,7 @@
     
     <h1 class="banner-title text-center">Itens</h1>
 
-    <div class="container corpo-index">
+    <div class="container corpo-index" id="banner">
         <div class="row cards-filmes">
             <div class="col-md-4">
                 <div class="card" style="width: 100%;">
@@ -113,7 +113,7 @@
 <!-- Fim Corpo - Arthur -->
 
 <!-- Rodapé - Isabela -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-black rodape">
+<nav id ="rodape" class="navbar navbar-expand-lg navbar-dark bg-black rodape">
     
      <div class="container-fluid row justify-content-around"> 
         
