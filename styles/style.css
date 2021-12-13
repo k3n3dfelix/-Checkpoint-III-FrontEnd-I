@@ -17,17 +17,16 @@
     color:red;
     font-weight: bold;
 }
-/* .fundo{
-    background-color:black;
-    z-index: 12;
-} */
+.cabecalho{
+   margin-top:20px;
+} 
 
 .banner{
     background-image: url("../imagens/banner.jpg");
-   
     background-size: cover;
     height: 610px;
-    width:100%;  
+    width:100%; 
+    margin-top:61px; 
     
 }
 .fundo{
@@ -48,8 +47,6 @@
     color:white;
 }
 
-
-
 /*Estilo Detalhe Filmes */
 .banner-detalhe-filme img{
     
@@ -58,7 +55,6 @@
     width:100%;  
     
 }
-
 .stars{
     margin-bottom:20px;
 }
@@ -68,7 +64,6 @@
     font-size:30px;
     margin-bottom:20px;
 }
-
 
 .corpo-detalhe{
     padding:70px;
@@ -107,16 +102,12 @@
 margin-bottom:100px;
 }
 
-
-
-
 /*Estilo rodapé */
 .rodape {
-    height: 20%;
+    height: 30%;
     color: white;
-}
-.col {
     text-align: center;
+    padding: 40px;
 }
 .link-rodape {
     padding: 5px;
@@ -125,12 +116,20 @@ margin-bottom:100px;
     width: 5px;
     height: 5px;
 }
+.texto-rodape {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.801);
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
 
 
 
 
 
 
-html {
-  scroll-behavior: smooth;
+
+html{
+    scroll-behavior: smooth;
 }
